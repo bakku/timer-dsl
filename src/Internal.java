@@ -2,7 +2,7 @@ import static internal.Duration.*;
 import static internal.Tasks.*;
 import static internal.TimerExpressionBuilder.timer;
 
-public class Main {
+public class Internal {
     public static void main(String[] args) {
         timer()
             .execute(print("Hello, World repeatedly!"))
